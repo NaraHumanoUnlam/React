@@ -1,0 +1,49 @@
+.itemListConteiner{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    width: 100%;
+}
+
+.product{
+    width: 20%;
+    margin-right: 2rem;
+    border: .2em solid #2d9bdb;
+    display: flex;
+    flex-flow: column;
+}
+
+.productDescription {
+    text-align: center;
+}
+
+.productDescription .price {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product img{
+    width: 90%;
+    margin: 20px 0px 20px 20px;
+}
+
+.dialog img{
+    width: 100%;
+}
+
+.primary-button{
+    background-color: #2d9bdb;
+    border: 2px solid #2d9bdb;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+}
+
+.primary-button:hover{
+    background-color: #fff;
+    border: 2px solid #2d9bdb;
+    color: #2d9bdb;
+    padding: 10px;
+    margin: 15px;
+}

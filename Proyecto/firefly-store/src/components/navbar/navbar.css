@@ -1,0 +1,25 @@
+.nav-bar {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#nav:hover {
+    border-bottom: 3px solid #2D9CDB;
+    color: #253AE8;
+  }
+
+ 
+ .active {
+    color: #253AE8!important;
+    border-bottom: none!important;
+  }
+
+  ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+  }
+  li{
+    list-style:none;
+    padding: 10px;
+  }

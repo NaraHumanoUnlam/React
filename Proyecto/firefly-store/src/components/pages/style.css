@@ -1,0 +1,19 @@
+.primary-button{
+    background-color: #2d9bdb;
+    border: 2px solid #2d9bdb;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+}
+
+.primary-button:hover{
+    background-color: #fff;
+    border: 2px solid #2d9bdb;
+    color: #2d9bdb;
+    padding: 10px;
+    margin: 15px;
+}
+
+.navbar {
+    color: #2d9bdb!important;
+}

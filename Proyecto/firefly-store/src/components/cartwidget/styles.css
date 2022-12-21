@@ -1,0 +1,48 @@
+.carrito a {
+    text-decoration: none;
+    border-bottom: none;
+
+}
+
+.carrito-icono,
+a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'roboto' sans-serif;
+    font-size: large;
+    font-weight: 900;
+    color: #2D9CDB;
+}
+
+.carrito-icono:hover {
+    border-bottom: none;
+}
+
+.carrito {
+    float: right;
+    margin-right: 100px;
+}
+
+.carrito-icono {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+
+}
+
+
+
+.carrito-icono p {
+    border: 2px solid #2D9CDB;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.carrito-icono img {
+    width: 2.5em;
+    height: 2.5em;
+}
