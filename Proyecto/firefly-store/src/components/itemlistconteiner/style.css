@@ -1,11 +1,11 @@
-.itemListConteiner{
+.itemListConteiner {
     display: flex;
     justify-content: center;
     margin-top: 2em;
     width: 100%;
 }
 
-.product{
+.product {
     width: 20%;
     margin-right: 2rem;
     border: .2em solid #2d9bdb;
@@ -23,16 +23,16 @@
     font-weight: bold;
 }
 
-.product img{
+.product img {
     width: 90%;
     margin: 20px 0px 20px 20px;
 }
 
-.dialog img{
+.dialog img {
     width: 100%;
 }
 
-.primary-button{
+.primary-button {
     background-color: #2d9bdb;
     border: 2px solid #2d9bdb;
     padding: 10px;
@@ -40,10 +40,39 @@
     color: white;
 }
 
-.primary-button:hover{
+.primary-button:hover {
     background-color: #fff;
     border: 2px solid #2d9bdb;
     color: #2d9bdb;
     padding: 10px;
     margin: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .product img {
+        width: 80%;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .primary-button {
+        font-size: 10px;
+    }
+
+    .itemListConteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .product {
+        width: 80%;
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }

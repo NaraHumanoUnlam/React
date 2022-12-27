@@ -1,30 +1,31 @@
-import React from 'react'
+import React from 'react';
+const Home = () => {
 
-const home = () => {
   return (
     <div>
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
+      <h1>Inicio</h1>
+      <div id="carouselExampleControls" class="carousel slide align-middle" data-bs-ride="carousel">
+  <div class="carousel-inner w-100">
     <div class="carousel-item active w-100">
-    <div class="carousel-caption d-none d-md-block sticky-top text-primary">
+    <div class="carousel-caption d-none d-md-block text-primary">
         <h1>Bienvenido</h1>
         <p>Productos Naturales más accesibles.</p>
       </div>
-      <img src="productos-naturales.jpg" class="d-block w-100" alt="natural"></img>      
+      <img src="img/productos-naturales.jpg" class="d-block w-100" alt="natural"></img>      
     </div>
     <div class="carousel-item">
-    <div class="carousel-caption d-none d-md-block sticky-top text-primary">
+    <div class="carousel-caption d-none d-md-block text-primary">
         <h1>Bienvenido</h1>
         <p>Productos Naturales más accesibles.</p>
       </div>
-      <img src="cremas.jpg" class="d-block w-100" alt="cremas"></img>
+      <img src="img/cremas.jpg" class="d-block w-100" alt="cremas"></img>
     </div>
     <div class="carousel-item">
-    <div class="carousel-caption d-none d-md-block sticky-top text-primary">
+    <div class="carousel-caption d-none d-md-block text-primary">
         <h1>Bienvenido</h1>
         <p>Productos Naturales más accesibles.</p>
       </div>
-      <img src="aceites.jpg" class="d-block w-100" alt="natural"></img>
+      <img src="img/aceites.jpg" class="d-block w-100" alt="natural"></img>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -40,4 +41,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

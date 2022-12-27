@@ -23,3 +23,12 @@
     list-style:none;
     padding: 10px;
   }
+
+  @media screen and (max-width: 600px) {
+    .nav { 
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: center;
+      align-items: center;
+    }
+  }

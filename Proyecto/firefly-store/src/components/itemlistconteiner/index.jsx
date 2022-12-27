@@ -10,7 +10,6 @@ function ItemListConteiner() {
     const [selectedProduct, setSelectedProduct] = useState({});
     const [showModal, setShowModal] = useState(false);
     const products = data;
-
     useEffect(() => {
       if(!isObjectEmpty(selectedProduct)) {
         setShowModal(true);
@@ -24,7 +23,7 @@ function ItemListConteiner() {
         ))}
         { showModal &&
           <Modal title="Detalle del producto">
-            <div>Aqui está el children prop</div>
+            <div>Detalles</div>
             <button className='primary-button' onClick={() => setShowModal(false)}> Cerrar</button>
           </Modal>
         }

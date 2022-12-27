@@ -16,6 +16,12 @@ export const data = [
       name: "Aceite de Coco",
       price: "$1600,00 ARS",
       src: 'https://imagizer.imageshack.com/img924/2299/xMgztF.jpg',
+    },
+    {
+      id: 4,
+      name: "Shampoo Sólido Chico",
+      price: "$600,00 ARS",
+      src: 'https://imagizer.imageshack.com/img923/8463/kGdhlY.jpg',
     }
 ];
 
