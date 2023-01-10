@@ -21,11 +21,21 @@ function ItemListConteiner() {
         {products.map((product) => (
           <Product product={product} setSelectedProduct={setSelectedProduct} />
         ))}
-        { showModal &&
-          <Modal title="Detalle del producto">
-            <div>Detalles</div>
-            <button className='primary-button' onClick={() => setShowModal(false)}> Cerrar</button>
+        
+        {
+          showModal &&
+          
+          //TODO: ARREGLAR TEMA DE PRODUCTO
+          
+          <Modal title={setSelectedProduct={setSelectedProduct}.name}>
+            <div className='detalle'>
+              <p>{ pr.name}</p>
+            </div>
+            <img src={pr.src} alt=''></img>
+            <button className='primary-button' onClick={() => setShowModal(false)}>Cerrar</button>
+            <button className='primary-button' onClick={() => setShowModal(true)}>Agregar al carrito</button>
           </Modal>
+          
         }
       </main>
     );
